@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "846625990340",
+    "firebase_url": "https://rire-soteh.firebaseio.com",
+    "project_id": "rire-soteh",
+    "storage_bucket": "rire-soteh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846625990340:android:74fb90e08fcc3366",
+        "android_client_info": {
+          "package_name": "tech.zongogroup.rire_soteh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846625990340-b62gmu8gstanjfn34cph80a0ht6tk726.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.zongogroup.rire_soteh",
+            "certificate_hash": "52b0c4c74a8b1c331e7f018e2c1cfb5166f47cdc"
+          }
+        },
+        {
+          "client_id": "846625990340-38k1npsldgg07sd9ps1ad9a83mnmj4fd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUg_CdWbp92_OFWW_N_QjWlgtXqT1nyBM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846625990340-38k1npsldgg07sd9ps1ad9a83mnmj4fd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

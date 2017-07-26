@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg">
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/toolbar" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/upload_video"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="#70c0c0c0"
+            android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/upload_video"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:text="Video(MANDATORY)"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/upload_poster"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:background="#70c0c0c0"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/upload_poster"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:text="Poster(Optional)"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/ic_short_text"
+            android:drawableStart="@drawable/ic_short_text"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+
+
+
+        <EditText
+            android:id="@+id/desc_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_short_text"
+            android:drawableStart="@drawable/ic_short_text"
+            android:drawablePadding="10dp"
+            android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:background="@drawable/round_signup_btn"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>
